@@ -1,0 +1,192 @@
+html {
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: 1920px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.firstPage {
+    height: 1080px;
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    visibility: visible;
+}
+
+.introImg {
+    position: absolute;
+    height: 495px;
+    width: 1481px;
+    margin-left: 220px;
+    margin-top: 247px;
+    background-image: url(./images/intro.png);
+}
+
+.startQRCode {
+    position: absolute;
+    height: 424.2px;
+    width: 469.23px;
+    margin-left: 50.45px;
+    margin-top: 87.25px;
+    background-image: url(./images/startQRCode.png);
+}
+
+.startButton {
+    position: absolute;
+    height: 150px;
+    width: 550px;
+    margin-left: 685px;
+    margin-top: 850px;
+    background-image: url(./images/startButton.png);
+}
+
+.safe {
+    height: 1080px;
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+}
+
+.backButton {
+    position: absolute;
+    width: 134px;
+    height: 131px;
+    margin-left: 131.51px;
+    margin-top: 135px;
+    background-image: url("./images/backButton.png");
+}
+
+.safeText {
+    position: absolute;
+    height: 724.91px;
+    width: 348.32px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-top: 177.91px;
+    background-image: url("./images/safeText.png");
+}
+
+.codeScroll {
+    height: 1080px;
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#scroll_1 {
+    margin-left: 525px;
+}
+
+#scroll_2 {
+    margin-left: 746.79px;
+}
+
+#scroll_3 {
+    margin-left: 968.59px;
+}
+
+#scroll_4 {
+    margin-left: 1190.38px;
+}
+
+.safeCodeScroll {
+    position: absolute;
+    width: 204.05px;
+    height: 692px;
+    margin-top: 194px;
+    background-image: url(./images/codeBackground.png);
+}
+
+.scroller_1,
+.scroller_2,
+.scroller_3,
+.scroller_4 {
+    width: auto;
+    height: 100%;
+    max-width: 177.44px;
+    max-height: 665.38px;
+    margin-left: 16.25px;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.openButton {
+    position: absolute;
+    width: 489.9px;
+    height: 489.9px;
+    margin-top: 502px;
+    margin-left: 1407px;
+    background-image: url(./images/openButton.png);
+}
+
+.inactiveOpenButton {
+    position: absolute;
+    width: 489.9px;
+    height: 489.9px;
+    margin-top: 502px;
+    margin-left: 1407px;
+    background-image: url(./images/inactiveOpenButton.png);
+}
+
+.end {
+    height: 1080px;
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+}
+
+.endText {
+    position: absolute;
+    height: 769.37px;
+    width: 1792px;
+    margin-top: 203px;
+    margin-left: 64px;
+    background-image: url("./images/endText.png");
+}
+
+.closeButton {
+    position: absolute;
+    width: 489.9px;
+    height: 489.9px;
+    margin-top: 482px;
+    margin-left: 94px;
+    background-image: url(./images/closeButton.png);
+}
+
+img {
+    scroll-snap-align: center;
+    flex: 1 1 auto;
+    min-width: 100%;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+
+<body>
+    <div class="background">
+        <div class="firstPage">
+            <div class="introImg"></div>
+            <div class="startQRCode"></div>
+            <div class="startButton" onclick="showSafe()"></div>
+        </div>
+        <div class="safe">
+            <div class="safeText"></div>
+            <div class="codeScroll">
+                <div class="safeCodeScroll" id="scroll_1">
+                    <div class="scroller_1">
+                        <img src="./images/emptyCell.png" id="imgEmpty1_s1">
+                        <img src="./images/0.png" id="img0_s1">
+                        <img src="./images/1.png" id="img1_s1" class="correctCode">
+                        <img src="./images/2.png" id="img2_s1">
+                        <img src="./images/3.png" id="img3_s1">
+                        <img src="./images/4.png" id="img4_s1">
+                        <img src="./images/5.png" id="img5_s1">
+                        <img src="./images/6.png" id="img6_s1">
+                        <img src="./images/7.png" id="img7_s1">
+                        <img src="./images/8.png" id="img8_s1">
+                        <img src="./images/9.png" id="img9_s1">
+                        <img src="./images/emptyCell.png" id="imgEmpty2_s1">
+                    </div>
+                </div>
+                <div class="safeCodeScroll" id="scroll_2">
+                    <div class="scroller_2">
+                        <img src="./images/emptyCell.png" id="imgEmpty1_s2">
+                        <img src="./images/0.png" id="img0_s2">
+                        <img src="./images/1.png" id="img1_s2">
+                        <img src="./images/2.png" id="img2_s2">
+                        <img src="./images/3.png" id="img3_s2">
+                        <img src="./images/4.png" id="img4_s2">
+                        <img src="./images/5.png" id="img5_s2" class="correctCode">
+                        <img src="./images/6.png" id="img6_s2">
+                        <img src="./images/7.png" id="img7_s2">
+                        <img src="./images/8.png" id="img8_s2">
+                        <img src="./images/9.png" id="img9_s2">
+                        <img src="./images/emptyCell.png" id="imgEmpty2_s2">
+                    </div>
+                </div>
+                <div class="safeCodeScroll" id="scroll_3">
+                    <div class="scroller_3">
+                        <img src="./images/emptyCell.png" id="imgEmpty1_s3">
+                        <img src="./images/0.png" id="img0_s3">
+                        <img src="./images/1.png" id="img1_s3">
+                        <img src="./images/2.png" id="img2_s3">
+                        <img src="./images/3.png" id="img3_s3">
+                        <img src="./images/4.png" id="img4_s3">
+                        <img src="./images/5.png" id="img5_s3">
+                        <img src="./images/6.png" id="img6_s3">
+                        <img src="./images/7.png" id="img7_s3">
+                        <img src="./images/8.png" id="img8_s3" class="correctCode">
+                        <img src="./images/9.png" id="img9_s3">
+                        <img src="./images/emptyCell.png" id="imgEmpty2_s3">
+                    </div>
+                </div>
+                <div class="safeCodeScroll" id="scroll_4">
+                    <div class="scroller_4">
+                        <img src="./images/emptyCell.png" id="imgEmpty1_s4">
+                        <img src="./images/0.png" id="img0_s4">
+                        <img src="./images/1.png" id="img1_s4">
+                        <img src="./images/2.png" id="img2_s4">
+                        <img src="./images/3.png" id="img3_s4">
+                        <img src="./images/4.png" id="img4_s4">
+                        <img src="./images/5.png" id="img5_s4">
+                        <img src="./images/6.png" id="img6_s4">
+                        <img src="./images/7.png" id="img7_s4">
+                        <img src="./images/8.png" id="img8_s4">
+                        <img src="./images/9.png" id="img9_s4" class="correctCode">
+                        <img src="./images/emptyCell.png" id="imgEmpty2_s4">
+                    </div>
+                </div>
+            </div>
+
+            <div class="backButton" onclick="showStart()"></div>
+            <div class="openButton" onclick="showEnd()"></div>
+            <div class="inactiveOpenButton"></div>
+        </div>
+        <div class="end">
+            <div class="endText"></div>
+            <div class="closeButton" onclick="showStart()"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

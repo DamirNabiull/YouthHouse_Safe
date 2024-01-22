@@ -1,0 +1,1 @@
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --kiosk "file:///C:/Safe/index.html"
